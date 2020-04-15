@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+/* nvabar */
+html{
+    scroll-behavior: smooth;
+}
+
+#brand{
+    font-size: 1.8rem;
+    padding-left: 3%;
+    font-family: 'Satisfy', cursive;
+}
+
+
+#list-item{
+    color: white;
+    font-weight: bold;
+    margin-right: 5%;
+    letter-spacing: 0.1rem;
+}
+/* background-image */
+
+
+#title{
+    background: url("./Images/white-and-gray-australian-shepherd-puppy-sitting-on-grass-1346086\ \(1\).jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlight{
+    padding: 5% 0 0 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 300%;
+    text-align: left;
+    line-height: 1.2;
+    font-family: 'Satisfy', cursive;
+}
+
+.space{
+    padding: 0 0 10% 0;
+}
+
+.row button{
+    margin: 5% 3% 5% 0;
+}
+
+#feature{
+    padding:7% 15%;
+    text-align: center;
+}
+
+#feature-box{
+    padding: 5%;
+}
+
+#feature-box p{
+    color: gray;
+}
+
+#feature-box h3{
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+}
+
+#feature .icon{
+    margin-bottom: 7%;
+    color: yellowgreen;
+}
+
+#testimonials{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+#carousel-item{
+    padding: 7% 15%;
+}
+
+#carousel-item h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    line-height: 1.9;
+    font-weight: bold;
+    color: white;
+}
+
+#carousel-item img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: 3% 3% 0 0;
+}
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#pricing .heading{
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+#pricing .heading-sub{
+    color: gray;
+}
+
+#card-box{
+    margin-top: 7%
+}
+
+#card-box .card-body h2{
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+#image-gallary{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+#image-gallary h2{
+    color: white;
+    padding-top: 7%;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+.image-slide{
+    padding: 7% 15%;
+    border-radius: 20%;
+    height: 60%;
+    width: 80%;
+    filter: drop-shadow(0 0 1rem black);
+    
+}
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3{
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#cta button{
+    margin-top: 2%;
+}
+
+#cta .btn-success{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+#footer{
+    padding: 7% 15%;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+#footer .footer-link{
+    color : white;
+    margin: 0 2.5% 0 2.5%;
+}
+
+#footer .footer-link:hover{
+    color: black;
+    transform: scale(1.2)
+}
+
+#footer p{
+    margin-top: 3%;
+}
+
+#footer .myname{
+    color: gray;
+    font-family: 'Satisfy', cursive;
+}
+
+@media (max-width: 1000px){
+    .highlight{
+        text-align: center;
+    }
+
+    .row button{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+    #title{
+        background: url("./Images/less\ the\ 500.jpg");
+    }
+}
